@@ -1,0 +1,85 @@
+﻿.quqlites {
+    
+    min-height: 200px;
+    margin-right: 4%;
+    margin-left: 4%;
+    margin-bottom: 2%;
+    background-color: #f2f2f2;
+    box-shadow: 2px 2px 2px 2px #cccccc;
+    border-radius:3%;
+    padding:50px;
+}
+.btn-outline-cer {
+    color: #18BC9C;
+    font-size: 15px;
+    border: solid 2px #18BC9C;
+    background: transparent;
+    transition: all 0.3s ease-in-out;
+    
+}
+.c{
+
+}
+.tab{
+    overflow-x:no-display;
+    overflow-y:no-display;
+   
+}
+
+    .btn-outline-cer:hover,
+    .btn-outline-cer:focus,
+    .btn-outline-cer:active,
+    .btn-outline-cer.active {
+        color: white;
+        background: #18BC9C;
+        border: solid 2px black;
+    }
+.center-div {
+       position: relative;
+       left: 1%;
+}
+    .center-div > div {
+        margin-right: 4%;
+        margin-left: 4%;
+    }
+.center-div2 {
+    position: relative;
+    left: 17%;
+}
+.quqlites:hover {
+    color: hsla(0, 0%, 0%, 0.88);
+    /* transition: width 2s, height 4s;*/
+    animation-name: change;
+    animation-duration: 2s;
+   
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    background-color: rgb(24, 188, 156);
+    box-shadow: 2px 2px 2px 2px rgb(24, 188, 156);
+}
+@keyframes change {
+    from {
+        background-color: #f2f2f2;
+        box-shadow: 2px 2px 2px 2px #cccccc;
+    }
+
+    to {
+        background-color: rgb(24, 188, 156);
+        box-shadow: 2px 2px 2px 2px rgb(24, 188, 156);
+    }
+}
+@media screen and (max-width: 480px) {
+    .tab {
+        overflow-x: scroll;
+        overflow-y: no-display;
+    }
+    .center-div {
+     position: unset;
+    left: unset;
+    }
+    .center-div2 {
+        position: unset;
+        left: unset;
+    }
+    
+}
