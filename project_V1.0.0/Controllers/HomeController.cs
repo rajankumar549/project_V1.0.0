@@ -17,6 +17,12 @@ namespace project_V1._0._0.Controllers
             return View();
            
         }
+        public ActionResult Error()
+        {
+            ViewData["flag"] = false;
+            return View();
+
+        }
         [HttpPost]
         public ActionResult Index(FormCollection form)
 
